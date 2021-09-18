@@ -1,0 +1,26 @@
+{
+  "name": "laagan-app-css",
+  "version": "1.0.0",
+  "description": "Landing page for laagan-app-css",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass sass/main.scss css/style.css -w",
+    "live-server": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinPCM/laagan-app-css.git"
+  },
+  "author": "Justin Manalili",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justinPCM/laagan-app-css/issues"
+  },
+  "homepage": "https://github.com/justinPCM/laagan-app-css#readme",
+  "devDependencies": {
+    "sass": "^1.39.2"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
